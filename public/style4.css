@@ -1,0 +1,23 @@
+body{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:black;
+    background-color:white;
+}
+
+.centered {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+
+  }
+img{
+    
+    height: 500px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
