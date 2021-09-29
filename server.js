@@ -8,7 +8,7 @@ app.listen(3000);
 
 app.use(express.static('public'));
 
-
+//Requests
 app.get('/', (req,res)=>{
     res.sendFile('./views/index.html',{root:__dirname});
 });
