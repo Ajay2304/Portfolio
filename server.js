@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.static('public'));
 
-const port=process.env || 3000
+const port=3000
 
 app.listen(port);
 
