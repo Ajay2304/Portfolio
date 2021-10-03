@@ -15,7 +15,7 @@ app.listen(port);
 app.use(express.static('public'));
 
 //Requests
-app.get('/home', (req,res)=>{
+app.get('/', (req,res)=>{
     res.sendFile('./views/index.html',{root:__dirname});
 });
 app.get('/about',(req,res)=>{
