@@ -3,8 +3,11 @@ body{
     font-family: 'Ubuntu Condensed', sans-serif;
     color:black;
     background-color:white;
-    padding: 20px;
+    
 }
 .color{
     background-color: lightskyblue;
+}
+.position{
+    padding: 15px;
 }
