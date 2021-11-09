@@ -4,9 +4,7 @@ const app = express();
 
 const http = require('http');
 
-
 app.use(express.static('public'));
-
 
 const port=process.env.PORT || 3000;
 
