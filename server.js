@@ -6,7 +6,7 @@ const http = require('http');
 
 app.use(express.static('public'));
 
-const port=process.env.PORT || 3000;
+const port= 3000;
 
 app.listen(port);
 
